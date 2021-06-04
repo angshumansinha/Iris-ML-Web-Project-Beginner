@@ -4,4 +4,6 @@ The web app takes input and shows output in return<br>
 For this we have used the well known IRIS dataset with parameters as Sepal length and Sepal Width and Petal length and Petal width<br>
 SVC is used for prediction<br>
 For the app, we have used Flask as backend<br>
-#Happy Learning <3
+![image](https://user-images.githubusercontent.com/68042268/120759707-ea9a1280-c530-11eb-8489-45cbd6d31d55.png)
+
+<h1>#Happy Learning <3</h1>
