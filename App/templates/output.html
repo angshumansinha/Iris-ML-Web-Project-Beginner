@@ -3,13 +3,16 @@
     <body bgcolor="#903988">
         <center>
             <h1>YOUR FLOWER IS</h1><br> <br>
-            {{prediction}}
+    
             {% if prediction == 0 %}
-            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            <h1>IRIS SETOSA</h1>
+            <img src="{{url_for('static', filename='Kosaciec_szczecinkowaty_Iris_setosa.jpg')}}">
             {% elif prediction==1 %}
-            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            <h1> IRIS VERSICOLOR</h1>
+            <img src="{{url_for('static', filename='Blue_Flag,_Ottawa.jpg')}}">
             {% else %}
-            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            <h1>IRIS VIRGINICA</h1>
+            <img src="{{url_for('static', filename='iris_virginica_virginica_lg.jpg')}}">
             {% endif %}
             <br><br>
             <a href='/'>go to home</a>
