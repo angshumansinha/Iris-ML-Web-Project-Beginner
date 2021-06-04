@@ -4,6 +4,13 @@
         <center>
             <h1>YOUR FLOWER IS</h1><br> <br>
             {{prediction}}
+            {% if prediction == 0 %}
+            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            {% elif prediction==1 %}
+            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            {% else %}
+            <img src="{{url_for('static', filename='helianthus-yellow-flower-pixabay_11863.jpg')}}">
+            {% endif %}
             <br><br>
             <a href='/'>go to home</a>
         </center>
