@@ -13,12 +13,12 @@ So, sit and relax, grab some Popcorn and enjoy the coding experience
 A Minimal Application<br>
 A minimal Flask application looks something like this:<br>
 <code>
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
- return 'Hello, World!'</code><br>
+from flask import Flask<br>
+app = Flask(__name__)<br>
+<br> <br>
+@app.route('/')<br>
+def hello_world():<br>
+ &emsp return 'Hello, World!'</code><br>
 So what did that code do?<br>
 <ul>
  <li>First we imported the Flask class. An instance of this class will be our WSGI application.</li>
