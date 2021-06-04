@@ -1,0 +1,16 @@
+<html>
+    <title>Flower Recommendation System</title>
+    <body bgcolor="#5E7B52">
+        <center><h1 style="font-family:'Times New Roman';">Welcome to the Flower Recommendation System</h1><br><br>
+                <form action="{{url_for('predict')}}",method='POST'>
+                    <input type='text',name='a', placeholder="Enter Sepal length"><br><br>
+                    <input type='text',name='b', placeholder="Enter Sepal width"><br><br>
+                    <input type='text',name='c', placeholder="Enter Petal length"><br><br>
+                    <input type='text',name='d', placeholder="Enter Petal width"><br><br>
+                    <input type="submit", value="predict">
+                </form>
+        </center>
+        
+
+    </body>
+</html>
