@@ -29,7 +29,7 @@ So what did that code do?<br>
 
 <li>The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser</li>
  </ul>
- #App Screenshot
+ #App Screenshot<br>
  ![image](https://user-images.githubusercontent.com/68042268/120824048-ad0ba880-c575-11eb-9a52-92b7b960327b.png)<br>
  ![image](https://user-images.githubusercontent.com/68042268/120824139-c4e32c80-c575-11eb-98f8-1f79c63cc32e.png)
 
