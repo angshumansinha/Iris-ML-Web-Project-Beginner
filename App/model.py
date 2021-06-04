@@ -20,5 +20,6 @@ model.fit(X_train, y_train)
 
 import pickle
 pickle.dump(model,open('App/model.pkl','wb'))
+print(model.predict([[2,2,2,2]]))
 
 
