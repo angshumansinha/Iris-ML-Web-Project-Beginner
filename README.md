@@ -18,7 +18,7 @@ app = Flask(__name__)<br>
 <br> <br>
 @app.route('/')<br>
 def hello_world():<br>
- &emsp return 'Hello, World!'</code><br>
+  return 'Hello, World!'</code><br>
 So what did that code do?<br>
 <ul>
  <li>First we imported the Flask class. An instance of this class will be our WSGI application.</li>
